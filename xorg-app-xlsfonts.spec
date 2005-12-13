@@ -1,18 +1,18 @@
 Summary:	xlsfonts application
 Summary(pl):	Aplikacja xlsfonts
 Name:		xorg-app-xlsfonts
-Version:	0.99.1
+Version:	0.99.2
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/app/xlsfonts-%{version}.tar.bz2
-# Source0-md5:	5f54c35e3dadb357c5985e2984f1bae8
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/xlsfonts-%{version}.tar.bz2
+# Source0-md5:	b69f32ffd70fff3fe38c6dd09efdabfe
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.1
+BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,8 +37,7 @@ Aplikacja xlsfonts.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	appmandir=%{_mandir}/man1
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
