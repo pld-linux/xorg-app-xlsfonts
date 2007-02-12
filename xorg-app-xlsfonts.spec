@@ -1,5 +1,5 @@
 Summary:	xlsfonts application - server font list displayer for X
-Summary(pl):	Aplikacja xlsfonts - wy¶wietlanie listy fontów serwera X
+Summary(pl.UTF-8):   Aplikacja xlsfonts - wyÅ›wietlanie listy fontÃ³w serwera X
 Name:		xorg-app-xlsfonts
 Version:	1.0.2
 Release:	1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xlsfonts lists the fonts that match the given pattern.
 
-%description -l pl
-xlsfonts wy¶wietla listê fontów pasuj±cych do zadanego wzorca.
+%description -l pl.UTF-8
+xlsfonts wyÅ›wietla listÄ™ fontÃ³w pasujÄ…cych do zadanego wzorca.
 
 %prep
 %setup -q -n xlsfonts-%{version}
