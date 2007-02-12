@@ -1,5 +1,5 @@
 Summary:	xlsfonts application - server font list displayer for X
-Summary(pl.UTF-8):   Aplikacja xlsfonts - wyświetlanie listy fontów serwera X
+Summary(pl.UTF-8):	Aplikacja xlsfonts - wyświetlanie listy fontów serwera X
 Name:		xorg-app-xlsfonts
 Version:	1.0.2
 Release:	1
