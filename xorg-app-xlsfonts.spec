@@ -1,12 +1,12 @@
 Summary:	xlsfonts application - server font list displayer for X
 Summary(pl.UTF-8):	Aplikacja xlsfonts - wyświetlanie listy fontów serwera X
 Name:		xorg-app-xlsfonts
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xlsfonts-%{version}.tar.xz
-# Source0-md5:	f7397338c9cf1637492c8a4610b6cd0d
+# Source0-md5:	b74f3f2173ec5819d182d95b914a875c
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
